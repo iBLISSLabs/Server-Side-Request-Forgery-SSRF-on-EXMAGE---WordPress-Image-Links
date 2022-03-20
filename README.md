@@ -4,7 +4,7 @@ This PoC describe how to exploit SSRF on EXMAGE - WordPress Image Links version 
 
 # Description
 
-The EXMAGE plugin - WordPress Image Links version 1.0.3 does not have protections against SSRF, so it is possible to forge requests to internal services, enumerate services that are not directly exposed and find out what the local IP address of the server in this case
+The EXMAGE plugin - WordPress Image Links version 1.0.3 does not have protections against SSRF, so it is possible to forge requests to internal services, enumerate services that are not directly exposed.
 
 ![1](https://user-images.githubusercontent.com/70114276/159179186-ae0cb72c-b725-4ac0-a5a0-ba3fc4103856.png)
 
@@ -26,3 +26,5 @@ Then, we can perform an enumeration of this service through the SSRF present in 
 ![6](https://user-images.githubusercontent.com/70114276/159179226-196f41fe-68d4-43ef-9139-d96cd2b1ef4d.png)
 
 ![7](https://user-images.githubusercontent.com/70114276/159179232-96e00abe-a162-45ee-84d8-d0513f8e1886.png)
+
+with this, we were able to enumerate local services.
