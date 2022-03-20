@@ -27,4 +27,4 @@ Then, we can perform an enumeration of this service through the SSRF present in 
 
 ![7](https://user-images.githubusercontent.com/70114276/159179232-96e00abe-a162-45ee-84d8-d0513f8e1886.png)
 
-with this, we were able to enumerate local services.
+with this, we were able to enumerate local services by forging requests.
