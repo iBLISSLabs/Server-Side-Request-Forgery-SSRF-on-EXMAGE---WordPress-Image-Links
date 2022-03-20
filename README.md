@@ -4,7 +4,7 @@ This PoC describe how to exploit SSRF on EXMAGE - WordPress Image Links version 
 
 # Description
 
-The EXMAGE plugin - WordPress Image Links version 1.0.3 does not have protections against SSRF, so it is possible to forge requests to internal services, enumerate services that are not directly exposed.
+The EXMAGE plugin - WordPress Image Links version 1.0.3 does not have protections against SSRF, so it is possible to forge requests to internal services and enumerate services that are not directly exposed.
 
 ![1](https://user-images.githubusercontent.com/70114276/159179186-ae0cb72c-b725-4ac0-a5a0-ba3fc4103856.png)
 
