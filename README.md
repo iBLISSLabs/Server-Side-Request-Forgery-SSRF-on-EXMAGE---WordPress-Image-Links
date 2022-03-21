@@ -1,10 +1,10 @@
-# Server Side Request Forgery (SSRF) in EXMAGE - WordPress Image Links
+# Blind Server Side Request Forgery (SSRF) in EXMAGE - WordPress Image Links
 
 This PoC describe how to exploit SSRF on EXMAGE - WordPress Image Links version 1.0.3
 
 # Description
 
-The EXMAGE plugin - WordPress Image Links version 1.0.3 does not have protections against SSRF, so it is possible to forge requests to internal services and enumerate services that are not directly exposed.
+The EXMAGE plugin - WordPress Image Links version 1.0.3 does not have protections against SSRF, so it is possible to forge requests to internal services and enumerate web servers that are not directly exposed, if you know the path of an image
 
 ![1](https://user-images.githubusercontent.com/70114276/159179186-ae0cb72c-b725-4ac0-a5a0-ba3fc4103856.png)
 
@@ -27,4 +27,4 @@ Then, we can perform an enumeration of this service through the SSRF present in 
 
 ![7](https://user-images.githubusercontent.com/70114276/159179232-96e00abe-a162-45ee-84d8-d0513f8e1886.png)
 
-with this, we were able to enumerate local services by forging requests.
+with this, we were able to enumerate web servers by forging requests.
