@@ -2,15 +2,15 @@
 
 This PoC describe how to exploit SSRF on EXMAGE - WordPress Image Links version 1.0.3
 
+# CVE ID
+
+CVE-2022-1037 | EXMAGE <= 1.0.4 - Admin+ Blind SSRF
+
 # Description
 
 The EXMAGE plugin - WordPress Image Links version 1.0.3 does not have protections against SSRF, so it is possible to forge requests to internal services and enumerate web servers that are not directly exposed, if you know the path of an image
 
 ![1](https://user-images.githubusercontent.com/70114276/159179186-ae0cb72c-b725-4ac0-a5a0-ba3fc4103856.png)
-
-## CVE ID
-
-CVE-2022-1037 | EXMAGE <= 1.0.4 - Admin+ Blind SSRF
 
 ## Attack Scenario
 
