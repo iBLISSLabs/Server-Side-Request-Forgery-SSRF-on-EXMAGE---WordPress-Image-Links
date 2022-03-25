@@ -8,6 +8,9 @@ The EXMAGE plugin - WordPress Image Links version 1.0.3 does not have protection
 
 ![1](https://user-images.githubusercontent.com/70114276/159179186-ae0cb72c-b725-4ac0-a5a0-ba3fc4103856.png)
 
+## CVE ID
+
+CVE-2022-1037 | EXMAGE <= 1.0.4 - Admin+ Blind SSRF
 
 ## Attack Scenario
 
