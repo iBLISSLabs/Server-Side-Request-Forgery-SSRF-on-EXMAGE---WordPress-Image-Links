@@ -4,7 +4,7 @@ This PoC describe how to exploit SSRF on EXMAGE - WordPress Image Links version 
 
 # CVE ID
 
-CVE-2022-1037 | EXMAGE <= 1.0.4 - Admin+ Blind SSRF
+[CVE-2022-1037](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1037) | EXMAGE <= 1.0.4 - Admin+ Blind SSRF
 
 # Description
 
